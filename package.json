@@ -1,0 +1,37 @@
+{
+  "name": "jasmine-gherkin",
+  "version": "1.0.0",
+  "description": "Jasmine Gherkin syntax",
+  "main": "out/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jasmine": "^3.3.9",
+    "@types/node": "^11.11.3",
+    "jasmine": "^3.3.1",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333"
+  },
+  "scripts": {
+    "build": "npx tsc -p ./src",
+    "test": "npx ts-node --project src/tsconfig.test.json ./node_modules/jasmine/bin/jasmine",
+    "package": "npm pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billcheng/jasmine-gherkin.git"
+  },
+  "keywords": [
+    "jasmine",
+    "gherkin",
+    "bdd",
+    "tdd",
+    "unit",
+    "test"
+  ],
+  "author": "Bill Cheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/billcheng/jasmine-gherkin/issues"
+  },
+  "homepage": "https://github.com/billcheng/jasmine-gherkin#readme"
+}
